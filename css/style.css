@@ -1,0 +1,315 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*
+Theme Name: Multipurpose Landing Page Template - All in One
+Version: 1.0
+Author: Surjith SM
+Author URI: http://themeforest.net/user/surjithctly
+*/
+
+
+/******************  Table of Contents  *****************************/
+
+
+/*
+
+1. GLOBAL STYLES
+2. HEADER
+3. HERO IMAGE
+4. FEATURES
+5. TESTIMONIALS
+6. FAQ
+7. FOOTER
+8. CUSTOM MEDIA QUERIES
+
+If you having trouble in editing css. please send a mail to support@surjithctly.in -
+I will really help you
+
+*/
+
+
+/*========== 1. GLOBAL STYLES ==============*/
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #FFF;
+    font-weight: 400;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #94a3a8;
+    line-height: 1.5;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 1.5;
+    margin: 25px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    color: #5173bd;
+}
+
+a:hover,
+a:focus {
+    color: #5173bd;
+    text-decoration: none;
+}
+
+.btn,
+.btn-lg,
+.input-lg {
+    border-radius: 3px;
+}
+
+.form-control {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-lg {
+    height: 55px;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+    padding: 13px 28px;
+}
+
+.form-control:focus {
+    border-color: #AFBDC8;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.has-no-margin {
+    margin: 0;
+}
+
+.has-no-padding {
+    padding: 0;
+}
+
+.has-no-padding-horizontal {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.has-margin-vertical {
+    margin: 20px 0 30px;
+}
+
+.has-margin-top {
+    margin-top: 40px;
+}
+
+.has-margin-bottom {
+    margin-bottom: 40px;
+}
+
+.has-padding-top {
+    padding-top: 40px;
+}
+
+.has-padding-bottom {
+    padding-top: 40px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+}
+
+/*========== 2. HEADER ==============*/
+
+.masthead {
+    position: relative;
+    padding: 20px 15px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background: #323e4f url(../scott-webb-272211-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.masthead .main-title {
+    margin-bottom: 0;
+    background: #2db1ff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transform: skewX(-2deg) rotate(-2deg);
+    position: relative;
+    z-index: 2;
+}
+
+.masthead .sub-title {
+    color: #fff;
+    margin-top: 1em;
+    padding: .2em .5em;
+    background: #5270ff;
+    transform: skewX(1deg) rotate(1deg);
+}
+
+#mc_embed_signup_scroll {
+    padding: 5em 0;
+    display: flex;
+    flex: 1;
+    max-width: 75em;
+    margin: 0 auto;
+    align-items: center;
+}
+.mc-field-group {
+    flex: 1 1 auto;
+    margin-right: 2em;
+    box-shadow: 0px 2px 0 rgba(82, 112, 255, .2);
+}
+#mc-embedded-subscribe {
+    flex; 1 0 auto;
+    padding: ;
+}
+
+.notice {
+    background: #2db1ff;
+    display: inline-block;
+    padding: .2em .5em;
+    font-size: 18px;
+}
+
+/*animation ends*/
+.btn-large {
+    font-size: 18px;
+    padding: 20px 50px;
+    margin: 5px 10px;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    background-image: none;
+    border: 0;
+    -webkit-box-shadow: 0 3px 0 rgba(2, 154, 67, 1);
+    box-shadow: 0 3px 0 rgba(2, 154, 67, 1);
+    line-height: 1.8;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    background-color: #29c36a;
+    color: #FFF;
+    border: 0;
+    -webkit-box-shadow: 0 3px 0 rgba(2, 139, 61, 1);
+    box-shadow: 0 3px 0 rgba(2, 139, 61, 1);
+}
+
+.subscribe {
+    padding: 45px 0;
+}
+
+.alertMsg {
+    font-size: 14px;
+    display: block;
+    padding: 5px 17px;
+    text-align: center;
+}
+
+.masthead .form-control {
+    border: 0;
+}
+
+.form-control::-moz-placeholder {
+    color: #848E93;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #848E93;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #848E93;
+}
+
+
+
+/*==========9. CUSTOM MEDIA QUERIES==============*/
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+        margin: 15px 0;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-device-width: 992px) {
+    .masthead {
+        background-size: cover;
+        background-attachment: scroll;
+    }
+}
