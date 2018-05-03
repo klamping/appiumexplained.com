@@ -183,25 +183,31 @@ a:focus {
 }
 
 .masthead .main-title {
-    margin-bottom: 0;
+    margin: 0;
     background: #2db1ff;
     font-weight: bold;
     letter-spacing: 2px;
     transform: skewX(-2deg) rotate(-2deg);
     position: relative;
     z-index: 2;
+    width: calc(100% + 2em);
+    margin-left: -1em;
 }
 
 .masthead .sub-title {
     color: #fff;
-    margin-top: 1em;
-    padding: .2em .5em;
+    margin: .5em 0 0;
+    padding: .5em;
     background: #5270ff;
-    transform: skewX(1deg) rotate(1deg);
+    transform: rotate(.8deg);
+}
+.masthead .sub-title span {
+    transform: rotate(-.5deg);
+    display: inline-block;
 }
 
 #mc_embed_signup_scroll {
-    padding: 5em 0;
+    padding: 4em 0 5em;
     display: flex;
     flex: 1;
     max-width: 75em;
